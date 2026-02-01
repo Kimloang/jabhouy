@@ -5,6 +5,7 @@ import Carousel from './components/Carousel.tsx';
 import CategoryCard from './components/CategoryCard.tsx';
 import ProductCard from './components/ProductCard.tsx';
 import BottomNav from './components/BottomNav.tsx';
+import ProfileView from './components/ProfileView.tsx';
 import { CATEGORIES } from './constants.ts';
 import { View, CartItem, Product } from './types.ts';
 import { api } from './api.ts';
@@ -363,7 +364,8 @@ const App: React.FC = () => {
       <main className="flex-1">
         {currentView === 'home' && renderHome()}
         {currentView === 'cart' && renderCart()}
-        {(currentView === 'saved' || currentView === 'profile' || currentView === 'catalog') && renderOther(currentView.toUpperCase(), 'construction')}
+        {currentView === 'profile' && <ProfileView />}
+        {(currentView === 'saved' || currentView === 'catalog') && renderOther(currentView.toUpperCase(), 'construction')}
       </main>
 
       {renderProductModal()}
