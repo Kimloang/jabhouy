@@ -73,7 +73,7 @@ export const PRODUCTS: Product[] = [
         "name": "Gummy Bears Assortment",
         "price": 2.50,
         "weight": "100g",
-        "imageUrl": "https://images.pexels.com/photos/5380646/pexels-photo-5380646.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "imageUrl": "https://cdn11.bigcommerce.com/s-riqk6cih6h/images/stencil/640w/products/470/2076/50117_albanese-sour-assorted-fruit-gummi-bears__61056.1670859014.png",
         "category": "sweets",
         "isNew": false,
         "isLimited": false,
