@@ -1,0 +1,25 @@
+{
+  "hash": "f37c6aa7",
+  "configHash": "4466ab4c",
+  "lockfileHash": "e3b0c442",
+  "browserHash": "95bcd3f4",
+  "optimized": {
+    "react": {
+      "src": "../../jabHouy_View/node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "6ae02797",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../jabHouy_View/node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "9bc6eb0f",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-Q4F2V3BB": {
+      "file": "chunk-Q4F2V3BB.js"
+    }
+  }
+}
